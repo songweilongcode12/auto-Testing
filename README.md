@@ -4,4 +4,3 @@
 git add .<br>
 git commit -m ''<br>
 ![](https://img.shields.io/badge/python-brightgreen.svg)<br>
-![](https://img.shields.io/badge/blog-@champyin-yellow.svg?style=flat)<br>
