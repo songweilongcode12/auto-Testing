@@ -33,11 +33,10 @@ class httprequest:
                 json = data,
                 headers = self.headers,
                 verify =False)
-
+            return RequestMsg
         except Exception as error:
             logger.info(error)
-        else:
-            return RequestMsg
+
 
     def get(self,url ,data):
         try:
