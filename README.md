@@ -4,3 +4,7 @@
 git add .<br>
 git commit -m ''<br>
 ##![](https://img.shields.io/badge/python-brightgreen.svg)
+git branch -m master dev
+git fetch origin
+git branch -u origin/dev dev
+git remote set-head origin -a
