@@ -3,8 +3,6 @@
 # author : Lenovo
 # date: 2021/7/5 14:29
 # version: 0.1
-import select
-
 from tools.logger import Loggings
 logger = Loggings()
 import unittest
