@@ -9,69 +9,59 @@ import requests
 from urllib import parse
 logger = Loggings()
 class httprequest:
-    def __init__(self):
-        self.headers = {
-            "Content-Type": "application/json; chanset=UTF-8",
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36"
-                        }
-        self.fromheaders = {
-                            "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
-                            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36"
-        }
-    def post(self,url,data,dataform='json'):
+    def postform(self,url,data,headers):
         try:
-            if dataform == 'form':
-                data = parse.urlencode(data)
-                RequestMsg = requests.post(url=url,
-                                           data=data,
-                                           headers=self.fromheaders,
-                                           verify =False
-                                           )
-            else:
-                RequestMsg = requests.post(
-                url = url,
-                json = data,
-                headers = self.headers,
-                verify =False)
-            return RequestMsg
+            data = parse.urlencode(data)
+            RequestMsg = requests.post(url=url,
+                                       data=data,
+                                       headers=headers,
+                                       verify =False
+                                       )
+
+            return RequestMsg.json()
         except Exception as error:
             logger.info(error)
 
+    def post(self, url, data, headers):
 
-    def get(self,url ,data):
+        try:
+            RequestMsg = requests.post(url=url,
+                                       data=data,
+                                       headers=headers,
+                                       verify=False
+                                       )
+            return RequestMsg.json()
+        except Exception as error:
+            logger.info(error)
+    def get(self,url ,data,headers):
         try:
             RequestMsg = requests.get(
                 url = url,
                 params = data,
-                headers = self.headers,
+                headers = headers,
                 verify=False
             )
-
+            return RequestMsg.json()
         except Exception as error:
             logger.info(error)
-        else:
-            return RequestMsg
-    def delete(self,url):
+
+    def delete(self,url,headers):
         try:
             Requestmsg = requests.delete(url = url,
-                                         headers = self.headers,
+                                         headers = headers,
                                          verify =False)
-
-        except Exception as error:
-
-            logger.info(error)
-        else:
             return Requestmsg
-    def put(self,url,data):
+        except Exception as error:
+            logger.info(error)
+
+    def put(self,url,data,headers):
         try:
             Requestmsg = requests.put(
                 url = url,
                 json = data,
-                headers = self.headers,
+                headers = headers,
                 verify=False
             )
-
+            return Requestmsg
         except Exception as error:
             logger.info(error)
-        else:
-            return Requestmsg

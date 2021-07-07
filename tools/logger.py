@@ -41,10 +41,3 @@ class Loggings:
     def error(msg):
         return logger.error(msg)
 
-
-# loggings = Loggings()
-# if __name__ == '__main__':
-#     loggings.info("中文test")
-#     loggings.debug("中文test")
-#     loggings.warning("中文test")
-#     loggings.error("中文test")
