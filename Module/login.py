@@ -18,7 +18,8 @@ class login(httprequest):
             data=data,
             headers=headers
         )
-        logger.info(reponce)
+        return reponce
+
 
 
 

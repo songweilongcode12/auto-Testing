@@ -1,6 +1,8 @@
 import unittest
 from config.HTMLTestRunner.BeautifulReport import BeautifulReport
+from config.HTMLTestRunner.HTMLTestReportCN import HTMLTestRunner
 from testcases.test_login import test_login
+from notebook.books import testcase
 import os
 from tools.logger import Loggings
 logger = Loggings()
@@ -13,7 +15,6 @@ def loadtestcase():
     '''
     testunit = unittest.TestSuite()
     testcase_path =os.path.abspath(os.path.dirname(__file__)+os.path.sep+r"../") + "/testcases/"
-    logger.info("测试用例路劲为：{}".format(testcase_path))
     discover = unittest.defaultTestLoader.discover(testcase_path,pattern="test_*.py")
     for suit in discover:
         for case in suit:
@@ -32,6 +33,22 @@ def runtestcaese():
                    description='登录功能',
                    log_path=report_path
                    )
+
+def runall():
+    suit = unittest.TestSuite()
+    loader = unittest.TestLoader()
+    suit.addTest(loader.loadTestsFromTestCase(testcase))
+    time_format = time.strftime("%Y%m%d%H%M", time.localtime())
+    report_path = os.path.dirname(os.path.abspath(".")) + "/report"
+    file_path = report_path + "/report" + time_format + ".html"
+    with open(file_path,'wb') as file:
+        runner = HTMLTestRunner(
+            stream=file,
+            title='登录功能',
+            description='验证成功登录场景',
+            tester='admin'
+        )
+        runner.run(suit)
 
 if __name__=='__main__':
     runtestcaese()
