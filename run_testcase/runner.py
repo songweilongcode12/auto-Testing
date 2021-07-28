@@ -1,8 +1,9 @@
+import sys
+sys.path.append('./../../auto-Testing/')
 import unittest
 from config.HTMLTestRunner.BeautifulReport import BeautifulReport
 from config.HTMLTestRunner.HTMLTestReportCN import HTMLTestRunner
 from testcases.test_login import test_login
-from notebook.books import testcase
 import os
 from tools.logger import Loggings
 logger = Loggings()
@@ -14,12 +15,13 @@ def loadtestcase():
     :return:
     '''
     testunit = unittest.TestSuite()
-    testcase_path =os.path.abspath(os.path.dirname(__file__)+os.path.sep+r"../") + "/testcases/"
+    testcase_path = os.path.dirname(os.path.abspath("."))+ "/testcases/"
+    # logger.info(testcase_path)
     discover = unittest.defaultTestLoader.discover(testcase_path,pattern="test_*.py")
     for suit in discover:
         for case in suit:
             testunit.addTest(case)
-    logger.info(testunit)
+    # logger.info(testunit)
     return testunit
 def runtestcaese():
     time_format = time.strftime("%Y%m%d%H%M", time.localtime())
@@ -37,7 +39,7 @@ def runtestcaese():
 def runall():
     suit = unittest.TestSuite()
     loader = unittest.TestLoader()
-    suit.addTest(loader.loadTestsFromTestCase(testcase))
+    suit.addTest(loader.loadTestsFromTestCase(test_login))
     time_format = time.strftime("%Y%m%d%H%M", time.localtime())
     report_path = os.path.dirname(os.path.abspath(".")) + "/report"
     file_path = report_path + "/report" + time_format + ".html"

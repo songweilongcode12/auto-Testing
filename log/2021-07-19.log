@@ -1,0 +1,35 @@
+2021-07-19 15:52:06.779 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 16:09:14.033 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:07:23.341 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:07:55.523 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:08:07.120 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:09:24.793 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:09:24.851 | INFO     | tools.logger:info:30 - True
+2021-07-19 17:09:24.851 | INFO     | tools.logger:info:30 - {'token': '64fa28eb-ac61-48b0-9db0-776f01df5119', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-19 17:10:48.920 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:11:30.812 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:21:55.821 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:22:35.365 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:27:18.347 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:28:24.091 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:44:18.929 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:47:57.383 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:48:24.834 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:51:30.810 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:58:37.312 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:58:38.363 | INFO     | tools.logger:info:30 - range(1, 9)
+2021-07-19 17:59:00.799 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:59:01.827 | INFO     | tools.logger:info:30 - range(1, 9)
+2021-07-19 17:59:16.033 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 17:59:17.064 | INFO     | tools.logger:info:30 - range(1, 9)
+2021-07-19 17:59:29.312 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 18:00:30.280 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 18:01:06.308 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-19 18:01:07.353 | INFO     | tools.logger:info:30 - 1
+2021-07-19 18:01:07.353 | INFO     | tools.logger:info:30 - 2
+2021-07-19 18:01:07.353 | INFO     | tools.logger:info:30 - 3
+2021-07-19 18:01:07.353 | INFO     | tools.logger:info:30 - 4
+2021-07-19 18:01:07.354 | INFO     | tools.logger:info:30 - 5
+2021-07-19 18:01:07.354 | INFO     | tools.logger:info:30 - 6
+2021-07-19 18:01:07.354 | INFO     | tools.logger:info:30 - 7
+2021-07-19 18:01:07.354 | INFO     | tools.logger:info:30 - 8

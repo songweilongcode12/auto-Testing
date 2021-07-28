@@ -1,0 +1,36 @@
+2021-07-20 09:40:57.875 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 09:42:24.005 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:24.213 | INFO     | tools.logger:info:30 - {'token': '29918144-a848-417e-a291-0960ac084f94', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 09:42:56.208 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 09:42:56.255 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:56.255 | INFO     | tools.logger:info:30 - {'token': 'b76f1775-7d73-4e03-9031-672736ec014d', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 09:42:56.276 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:56.276 | INFO     | tools.logger:info:30 - {'token': 'c75182e5-e1d3-4a32-8ac4-8d7c427d4f9b', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 09:42:56.298 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:56.298 | INFO     | tools.logger:info:30 - {'token': 'ca73bac6-f905-42d3-8ba2-6d8c39d683dc', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 09:42:56.317 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:56.317 | INFO     | tools.logger:info:30 - {'token': '781ab6da-67c7-42b5-a14a-4aab5e82d7f8', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 09:42:56.338 | INFO     | tools.logger:info:30 - True
+2021-07-20 09:42:56.339 | INFO     | tools.logger:info:30 - {'token': '74e77378-6238-4481-8794-192a8c9fd52f', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:00:24.387 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:00:24.398 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing/report/report202107201000.html
+2021-07-20 10:01:24.696 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:01:24.706 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing/report/report202107201001.html
+2021-07-20 10:01:24.712 | INFO     | tools.logger:info:30 - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_login.test_login testMethod=test_01_1>, <test_login.test_login testMethod=test_01_2>, <test_login.test_login testMethod=test_01_3>, <test_login.test_login testMethod=test_01_4>, <test_login.test_login testMethod=test_01_5>]>]>
+2021-07-20 10:01:24.736 | INFO     | tools.logger:info:30 - True
+2021-07-20 10:01:24.736 | INFO     | tools.logger:info:30 - {'token': '2949d792-1581-4943-b071-1fbe351ca1ae', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:01:24.754 | INFO     | tools.logger:info:30 - True
+2021-07-20 10:01:24.755 | INFO     | tools.logger:info:30 - {'token': 'a875f0fa-8ee6-4d50-8f17-800aeac0df58', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:01:24.773 | INFO     | tools.logger:info:30 - True
+2021-07-20 10:01:24.773 | INFO     | tools.logger:info:30 - {'token': 'b40e33bd-f30e-4893-ad7d-fe34b1861c3e', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:01:24.793 | INFO     | tools.logger:info:30 - True
+2021-07-20 10:01:24.793 | INFO     | tools.logger:info:30 - {'token': '4050d810-1d30-4dc2-ba10-00d68637f7b1', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:01:24.812 | INFO     | tools.logger:info:30 - True
+2021-07-20 10:01:24.813 | INFO     | tools.logger:info:30 - {'token': 'c17ac721-e95f-4097-85ba-1208d70af5d9', 'redirect': 'http://192.168.3.151:8774/index.htm', 'state': 'success'}
+2021-07-20 10:02:36.478 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:03:13.113 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:04:32.480 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:04:32.491 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing/report/report202107201004.html
+2021-07-20 10:09:44.553 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing\data\loginData.xlsx
+2021-07-20 10:09:44.563 | INFO     | tools.logger:info:30 - D:\TestFiles\project\auto-Testing/report/report202107201009.html
+2021-07-20 10:09:44.565 | INFO     | tools.logger:info:30 - D:\/testcases/
